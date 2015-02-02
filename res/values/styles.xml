@@ -1,0 +1,53 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    
+    
+      <!-- 自定义loading dialog -->
+    <style name="loading_dialog_tran" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    
+        <style name="item_left">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:background">@drawable/switch_check_selector</item>
+        <item name="android:drawablePadding">15dp</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    
+    
+    
+    <style name="myProgressBarStyleLarge">
+　　        <item name="android:indeterminateDrawable">@drawable/progress_large_white</item>
+    </style>
+    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ActivityTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>
