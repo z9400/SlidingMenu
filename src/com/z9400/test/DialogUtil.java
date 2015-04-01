@@ -15,6 +15,7 @@ public class DialogUtil {
 
         LayoutInflater inflater = LayoutInflater.from(context);
         View v = inflater.inflate(R.layout.progress_bar, null);
+        
         RelativeLayout layout = (RelativeLayout) v.findViewById(R.id.layout);
         Dialog loadingDialog = new Dialog(context, R.style.loading_dialog_tran);
         loadingDialog.setCanceledOnTouchOutside(false);
