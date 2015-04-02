@@ -23,7 +23,7 @@ public class BaseActivity extends SlidingActivity {
 	
 	private View view ;
 	
-    /** 手势监听 */
+    /** 手势监听1223 */
     // private GestureDetector mGestureDetector;      
 	
     /** 是否�?��监听手势关闭功能 */
